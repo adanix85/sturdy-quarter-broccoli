@@ -27,7 +27,7 @@ function Navbar() {
                 TRAVEL <i className="fas fa-route"></i>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
-                 <i className={click ? './public/times-solid.svg' : 'fas fa-bars'} />
+                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
                 <ul className={click ? 'nav-menu-active' : 'nav-menu'} >
                     <li className='nav-item'>
@@ -55,4 +55,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;
